@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stop Watch</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <script src="app.js"></script>
+
+  <h1>Stop Watch</h1>
+
+  <div id="timerContainer">
+    <div id="timer">00:00:00</div>
+  </div>
+  <div class="button-container">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+    <button onclick="deleteAll()">Delete All</button>
+  </div>
+  <div id="pauseTimes"></div>
+</body>
+
+</html>
